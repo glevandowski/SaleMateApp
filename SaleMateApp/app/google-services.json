@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866175621680",
+    "firebase_url": "https://salemate-ed925.firebaseio.com",
+    "project_id": "salemate-ed925",
+    "storage_bucket": "salemate-ed925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866175621680:android:599eade5424348ad",
+        "android_client_info": {
+          "package_name": "smartdash.salemate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866175621680-0mhft9ej7tmc6v1stnvh0av1f2ptmcaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smartdash.salemate",
+            "certificate_hash": "491b073ca7bae183989f15cb6bb6459b66497648"
+          }
+        },
+        {
+          "client_id": "866175621680-417e6dmmoq4p4qbk38rqsnpdlfjucqpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO0mQeQo7NZLA2-uqTZ3kFTPEdoH_idQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866175621680-417e6dmmoq4p4qbk38rqsnpdlfjucqpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

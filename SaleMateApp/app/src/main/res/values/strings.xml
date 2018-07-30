@@ -1,0 +1,191 @@
+<resources>
+    <!--Setup Toolbar-->
+    <string name="toolbar_title_text">SaleMate</string>
+    <!---->
+
+    <!--Configurações Iniciais-->
+    <string name="app_name">SaleMate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <!--Textview do topo do menu antes de ser exibido os dados recebidos-->
+    <string name="nav_header_title_user">User Full Name</string>
+    <string name="nav_header_title_user_email">user.mail@gmail.com</string>
+    <!---->
+    <!--Menu-->
+    <string name="menu_nav_racing_history">Histórico </string>
+    <string name="menu_nav_payment_methods">Pagamentos</string>
+    <string name="menu_textview_options">Opções</string>
+    <string name="menu_nav_edit_profile">Editar Perfil</string>
+    <string name="menu_nav_contact">Contato</string>
+    <string name="menu_nav_close">Sair</string>
+    <!---->
+
+    <!--SNACKBAR-->
+    <string name="snackbar_alert_title">Aviso</string>
+    <string name="snackbar_isconnected">Verifique sua conexão à internet</string>
+    <string name="snackbar_isnotconnected">Sem conexão</string>
+    <string name="snackbar_alert_lowConnection">Problemas de conexão</string>
+    <string name="snackbar_alert_connectionRecovered">Conexão redefinida com sucesso</string>
+    <string name="snackbar_formasPagamento_alert_limit">Limite de 5 cartões excedido</string>
+    <string name="snackbar_suasLocalizacoes_alert_limit">Limite de até 5 localizações excedida</string>
+    <string name="snackbar_formasPagamento_alert_undoRemove">Cartão excluído</string>
+    <string name="snackbar_suasLocalizacoes_alert_undoRemove">Localização excluída</string>
+    <string name="snackbar_button_alert_undoRemove">Desfazer</string>
+    <string name="snackbar_button_alert_refreshConnection">Recarregar</string>
+    <string name="snackbar_button_alert_tryAgain">Tentar Novamente</string>
+    <string name="snackbar_formasPagamento_alert_recoveredCard">Cartão recuperado com sucesso</string>
+    <string name="snackbar_suasLocalizacoes_alert_recoveredLocation">Localização recuperada com sucesso</string>
+    <!--->
+
+     <!-ISEMPTYVIEW-->
+    <string name="isemptyview_formasPagamento_alert">Adicione uma forma de pagamento</string>
+    <string name="isemptyview_suasLocalizacoes_alert">Adicione um local favorito</string>
+    <string name="isemptyview_historicoCorridas_alert">Sem histórico de corridas</string>
+    <!--->
+
+    <!-Encerra Configurações Iniciais-->
+
+    <!--DIALOG-->
+    <string name="dialog_api_msg">Atenção!</string>
+    <string name="dialog_alert_title">Aviso</string>
+    <string name="dialog_isconnected">Verifique sua conexão à internet</string>
+    <string name="dialog_contatofragment_alert">Favor preencher o motivo de seu atendimento</string>
+    <string name="dialog_formasPagamento_progress_removeCard">Removendo cartão</string>
+    <string name="dialog_suasLocalizacoes_progress_removeLocation">Removendo localização</string>
+    <string name="dialog_main_progress_logout">Saindo...</string>
+    <string name="progressDialog_wait">Aguarde</string>
+    <!---->
+
+    <!--MainActivity--><!---->
+
+
+    <!--Tela de Login-->
+    <string name="activity_login_progressDialog_msg_check">Verificando...</string>
+    <string name="activity_login_msg_hint_email">E-mail</string>
+    <string name="activity_login_msg_hint_password">Senha</string>
+    <string name="activity_login_btn_login">Entrar</string>
+    <string name="activity_login_err_msg_email">E-mail inválido</string>
+    <string name="activity_login_err_msg_password">Senha inválida</string>
+    <string name="activity_login_btn_new_register">Cadastre-se</string>
+    <!--Encerra tela de login-->
+
+    <!--Tela de Cadastro-->
+    <string name="activity_cadastro_progressDialog_msg_add_user">Cadastrando Usuário...</string>
+    <string name="activity_cadastro_msg_hint_full_name">Nome Completo</string>
+    <string name="activity_cadastro_msg_hint_email">E-mail</string>
+    <string name="activity_cadastro_msg_hint_cpf">CPF</string>
+    <string name="activity_cadastro_msg_hint_telephone">Telefone</string>
+    <string name="activity_cadastro_msg_hint_date">Data de Nascimento</string>
+    <string name="activity_cadastro_msg_hint_password">Senha</string>
+    <string name="activity_cadastro_msg_hint_confirm_password">Confirmar Senha</string>
+    <string name="activity_cadastro_btn_register">Cadastrar</string>
+    <string name="activity_cadastro_titulo">Cadastro</string>
+    <string name="activity_cadastro_err_msg_full_name">Digite o nome completo</string>
+    <string name="activity_cadastro_err_msg_invalid_name">Verifique o nome digitado</string>
+    <string name="activity_cadastro_err_msg_email">Digite um E-mail válido</string>
+    <string name="activity_cadastro_err_msg_cpf">CPF inválido.</string>
+    <string name="activity_cadastro_err_msg_telephone">Número de Telefone inválido</string>
+    <string name="activity_cadastro_err_msg_date_birthday">Data de nascimento inválida</string>
+    <string name="activity_cadastro_err_msg_password">Digite uma senha válida</string>
+    <string name="activity_cadastro_err_msg_confirm_password">As senhas digitadas não conferem</string>
+    <string name="activity_cadastro_err_msg_length_password">A senha deve Conter no Minimo 6 Caracteres</string>
+    <!--Encerra tela de Cadastro-->
+
+    <!--Tela para Adicionar Cartões-->
+    <string name="activity_adicionarCartao_progressDialog_msg_add_card">Cadastrando cartão...</string>
+    <string name="activity_adicionarCartao_msg_hint_card_number">Card number</string>
+    <string name="activity_adicionarCartao_msg_hint_card_date">MM/YY</string>
+    <string name="activity_adicionarCartao_msg_hint_card_cvc">CVC</string>
+    <string name="activity_adicionarCartao_btn_save">Salvar</string>
+    <string name="activity_adicionarCartao_msg_error_card_number">Número de cartão inválido.</string>
+    <string name="activity_adicionarCartao_msg_error_card_date">Data Invalida</string>
+    <string name="activity_adicionarCartao_msg_error_card_expired">Cartão Vencido</string>
+    <string name="activity_adicionarCartao_msg_error_card_cvc">Número de CVC inválido</string>
+    <string name="activity_adicionarCartao_msg_save_card_success">Cartão removido com sucesso</string>
+    <string name="activity_adicionarCartao_button_positive">Salvar</string>
+    <string name="activity_adicionarCartao_button_negative">Cancelar</string>
+    <!--Encerra Tela de Adicionar Cartões-->
+    <!--Tela FormasPagamento-->
+    <string name="fragment_formasPagamento_btn_add_card">Adicionar Cartão</string>
+    <!--Encerra Tela FormasPagamento-->
+
+    <!--Tela ConfirmarTrajeto-->
+    <string name="fragment_confirmarTrajeto_msg_texview_card_number">0000 xxxx xxxx 0000</string>
+    <string name="fragment_confirmarTrajeto_msg_texview_card_name">(Master Card)</string>
+    <string name="fragment_confirmarTrajeto_progressDialog_msg_price">Verificando preços...</string>
+    <string name="fragment_confirmarTrajeto_select_card">Selecione o cartão de crédito</string>
+    <string name="fragment_confirmarTrajeto_btn_confirm">Confirmar trajeto</string>
+    <string name="fragment_confirmarTrajeto_progressDialog_msg_pay">Realizando Pagamento</string>
+    <string name="fragment_confirmarTrajeto_alert_view">Sem cartões cadastrados</string>
+    <!--Encerra tela ConfirmarTrajeto-->
+
+    <!--Tela de Historico de Corridas-->
+    <string name="fragment_historicoCorridas_progressDialog_msg_search_race">Buscando suas corridas...</string>
+    <string name="adapter_historicoCorridas_btn_exibir_voucher">Exibir voucher</string>
+    <!--Encerra tela de historico de corridas-->
+
+    <!--Tela de Suas Localizações-->
+    <string name="fragment_suaslocalizacoes_btn_add_location">Adicionar Localização</string>
+    <string name="fragment_suaslocalizacoes_err_msg_nome_localizacao">Nome inválido</string>
+    <string name="fragment_suaslocalizacoes_progressDialog_msg_search">Buscando suas Localizações...</string>
+    <string name="fragment_suaslocalizacoes_progressDialog_msg_register">Cadastrando Localização...</string>
+    <string name="fragment_suaslocalizacoes_showDialog_title_newlocation">Nova localização</string>
+    <string name="fragment_suaslocalizacoes_showDialog_msg_newlocation">Digite um nome para sua localização</string>
+    <string name="fragment_suaslocalizacoes_showDialog_btn_positive_newlocation">Salvar</string>
+    <string name="fragment_suaslocalizacoes_showDialog_btn_negative_newlocation">Cancelar</string>
+    <!--Encerra Tela de Suas Localizações-->
+
+    <!--Tela editar cadastro-->
+    <string name="activity_edtcadastro_progressDialog_msg_add_user">Salvando Usuário...</string>
+    <string name="activity_edtcadastro_msg_hint_full_name">Nome Completo</string>
+    <string name="activity_edtcadastro_msg_hint_email">E-mail</string>
+    <string name="activity_edtcadastro_msg_hint_cpf">CPF</string>
+    <string name="activity_edtcadastro_msg_hint_telephone">Telefone</string>
+    <string name="activity_edtcadastro_msg_hint_date">Data de Nascimento</string>
+    <string name="activity_edtcadastro_msg_hint_password">Senha</string>
+    <string name="activity_edtcadastro_msg_hint_confirm_password">Confirmar Senha</string>
+    <string name="activity_edtcadastro_btn_register">Salvar</string>
+    <string name="activity_edtcadastro_titulo">Cadastro</string>
+    <string name="activity_edtcadastro_err_msg_full_name">Digite o nome completo</string>
+    <string name="activity_edtcadastro_err_msg_email">Digite um E-mail válido</string>
+    <string name="activity_edtcadastro_err_msg_cpf">CPF inválido.</string>
+    <string name="activity_edtcadastro_err_msg_telephone">Número de Telefone inválido</string>
+    <string name="activity_edtcadastro_err_msg_date_birthday">Data de nascimento inválida</string>
+    <string name="activity_edtcadastro_err_msg_password">Digite uma senha válida</string>
+    <string name="activity_edtcadastro_err_msg_confirm_password">As senhas digitadas não conferem</string>
+    <string name="activity_edtcadastro_err_msg_length_password">A senha deve Conter no Minimo 6 Caracteres</string>
+    <!--Encerra Tela editar cadastro-->
+
+    <!-- Tela de Contato -->
+    <string-array name="motivos">
+        <item>Reportar erro</item>
+        <item>Sugestões</item>
+        <item>Dúvidas</item>
+        <item>Outros</item>
+    </string-array>
+    <string name="fragment_contato_tipo_de_feedback">Selecione o tipo de dúvida</string>
+    <string name="fragment_contato_progress_loading">Enviando seu ticket para suporte.</string>
+    <string name="fragment_contato_feedback_success">Feedback enviado com sucesso.</string>
+    <string name="fragment_contato_mensagem">Digite sua dificuldade aqui...</string>
+    <string name="fragment_contato_button_submit">Enviar</string>
+    <!-- -->
+
+    <!--CARDS ADICIONADOS AO RECICLERVIEW-->
+
+    <!--Card FormasPagamento-->
+    <string name="card_formasPagamento_msg_textview_card_name">(Master Card)</string>
+    <string name="card_formasPagamento_msg_textview_card_number">0000 xxxx xxxx 0000</string>
+    <!--Encerra Card FormasPagamento-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--ENCERRA CARDS RELACIONADOS AO RECICLERVIEW-->
+</resources>

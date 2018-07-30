@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_historico_corridas"
+            android:icon="@drawable/ic_historico_corridas"
+            android:title="@string/menu_nav_racing_history" />
+        <item
+            android:id="@+id/nav_formas_pagamento"
+            android:icon="@drawable/ic_formas_pagamento"
+            android:title="@string/menu_nav_payment_methods" />
+    </group>
+
+    <item android:title="@string/menu_textview_options">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_contato"
+                    android:icon="@drawable/ic_contato"
+                    android:title="@string/menu_nav_contact" />
+                <item
+                    android:id="@+id/nav_editar_perfil"
+                    android:icon="@drawable/ic_editar_perfil"
+                    android:title="@string/menu_nav_edit_profile" />
+                <item
+                    android:id="@+id/nav_sair"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/menu_nav_close" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
